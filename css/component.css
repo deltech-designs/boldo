@@ -3,12 +3,44 @@
 
 /* Variables  */
 :root{
-    
+
+    /* Colors */
+    --lightBlue: #0DBBFC;
+    --green: #65E4A3; 
+    --lightGrey: #F1F1F1; 
+    --darkBlue: #0A2640;
+    --greyBlue: #8FB6D5; 
+    --white: #FFFFFF;
+    --gray: #777777; 
+
+
+    /* Font Weight */
+    --fw-regular: 400; 
+    --fw-medium: 600; 
+    --fw-bold: 700; 
+
+
+    /* Font sizes */
+    --fs-xxsmall: 0.75rem;
+    --fs-xsmall: 1rem;
+    --fs-small: 1.5rem;
+    --fs-xxmedium: 1.7rem;
+    --fs-xmedium: 2rem;
+    --fs-xxlarge: 2.5rem;
+    --fs-xlarge: 3rem;
+    --fs-large: 4rem;
 }
 
+/* Default style for body */
 body{
-
+    font-family: Raleway;
 }
 
+/* Container */
+.container{margin:0rem 3.5rem;}
 
-
+/* Default styles for heading */
+h1, h2, h3, h4, h5, h6, p{
+    font-weight: var(--fw-regular);
+    margin-bottom: 0; 
+}
