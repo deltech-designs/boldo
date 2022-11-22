@@ -1,17 +1,60 @@
 /* Responsive for large screen */
 
 @media screen and (max-width: 992px) {
-    
+    .container{margin: 0rem 2rem;}
 }
 
 /* Responsive for medium screen  */
 
 @media screen and (max-width: 768px) {
+    .container{margin: 0rem 0.8rem;}
+
+    .navbar{
+        padding: 0.8rem;
+    }
+        
     
 }
 
 /* Responsive for small screen */
 
 @media screen and (max-width: 567px) {
-    
+    .container{margin: 0rem 0.1rem;}
+
+    .navbar{
+        padding: 1rem;
+    }
+
+    .navbar .hide-bar{
+        display: block;
+    }
+
+    .close-btn{
+        display: block;
+        top: 0px; 
+        right: 25px;
+        font-size: 36px;
+    }
+
+    .nav-bar{
+        height: 100vh;
+        width: 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1; 
+        background-color: var(--black);
+        color: var(--white);
+        transition: all ease-in 0.5s;
+        overflow-x: none;
+    }
+
+    .navbar-list{
+        display: flex;
+        flex-direction: column;
+        background-color: var(--transparent);
+        height: 100vh;
+    }
+
+
 }

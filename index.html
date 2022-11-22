@@ -7,12 +7,14 @@
     <title>Boldo</title>
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="../img/icon2.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./img/icon2.png" type="image/x-icon">
 
     <!-- CSS  -->
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/component.css">
     <link rel="stylesheet" href="./css/mediaquery.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
 </head>
 <body>
     <main class="main">
@@ -22,25 +24,34 @@
             <!-- Navigation Bar-->
             <nav class="navbar">
                 <a href="#" class="navbar-brand">
-                    <img src="../img/logo.png" alt="">
+                    <img src="./img/Logo.png" alt="">
                 </a>
 
 
                 <!-- Navbar Links -->
-                <ul class="navbar-list">
-                    <li class="navbar-item">
-                        <a class="navbar-link" href="#">Product</a>
-                    </li>
-                    <li class="navbar-item">
-                        <a class="navbar-link" href="#">Services</a>
-                    </li>
-                    <li class="navbar-item">
-                        <a class="navbar-link" href="#">About</a>
-                    </li>
-                    <button class="navbar-btn">Log In</button>
-                </ul>
+                <div class="nav-bar">    
+                    <ul class="navbar-list">
+                        <i class="close-btn">&times;</i>
+                        <li class="navbar-item">
+                            <a class="navbar-link" href="#">Product</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a class="navbar-link" href="#">Services</a>
+                        </li>
+                        <li class="navbar-item">
+                            <a class="navbar-link" href="#">About</a>
+                        </li>
+                        <button class="navbar-btn">Log In</button>
+                    </ul>
+                </div>
+                <i class="bx bx-menu hide-bar"></i>
             </nav>
         </div>
     </main>
+
+
+
+
+    <script src="main.js"></script>
 </body>
 </html>

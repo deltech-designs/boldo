@@ -12,7 +12,7 @@
     --greyBlue: #8FB6D5; 
     --white: #FFFFFF;
     --gray: #777777; 
-
+    --transparent: rgba( 0, 0, 0, 0.8); 
 
     /* Font Weight */
     --fw-regular: 400; 
@@ -30,6 +30,7 @@
     --fs-xlarge: 3rem;
     --fs-large: 4rem;
 }
+
 
 /* Default style for body */
 body{

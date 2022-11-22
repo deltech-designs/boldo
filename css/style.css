@@ -66,4 +66,14 @@
     color: var(--white);
 }
 
+.close-btn{
+    font-size: var(--fs-xlarge);
+    color: var(--white);
+    display: none;
+}
+
+.navbar .hide-bar{
+    display: none;
+    font-size: 2.5rem;
+}
 
