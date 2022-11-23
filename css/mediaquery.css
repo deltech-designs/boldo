@@ -13,12 +13,12 @@
     }    
 }
 
-
-
 /* Responsive for small screen */
 @media screen and (max-width: 567px) {
     .container{margin: 0rem 0.1rem;}
 
+
+    /* Navbar for mobile responsive*/
     .navbar{
         padding: 1rem;
     }
@@ -66,5 +66,21 @@
     .close-btn{
        font-size: var(--fs-large);
        margin-left: 80%;
+    }
+
+    /* Landing Page */
+    .landingpage{
+        display: flex;
+        flex-direction: column;
+        /* padding: 0%; */
+        gap: 10px
+    }
+
+    .landingpage .landingpage-col-1{
+        width: 100%;
+    }
+
+    .landingpage .landingpage-col-2 img{
+        width: 100%;
     }
 }
