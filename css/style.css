@@ -30,7 +30,6 @@
 
 
 /* Navbar links */
-
 .navbar-list{
     list-style: none;
     display: flex;
@@ -40,7 +39,6 @@
 
 
 /* styling the navbar link */
-
 .navbar-item .navbar-link{
     font-weight: var(--fw-bold);
     font-size: 17px;
@@ -48,7 +46,7 @@
     color: var(--darkBlue);
 }
 
-
+/* Login button inside navbar */
 .navbar-list .navbar-btn{
     background-color: transparent; 
     color: var(--darkBlue);
@@ -61,17 +59,22 @@
     cursor: pointer;
 }
 
+
+/* When hover on the button */
 .navbar-list .navbar-btn:hover {
     background-color: var(--darkBlue);
     color: var(--white);
 }
 
+/* close button for the navbar when it on small screen */
 .close-btn{
     font-size: var(--fs-xlarge);
     color: var(--white);
     display: none;
 }
 
+
+/* show button for the navbar when it is on the small screen  */
 .navbar .hide-bar{
     display: none;
     font-size: 2.5rem;
@@ -88,23 +91,50 @@
     gap: 5rem;
 }
 
+/* First Column that contain the text */
 .landingpage .landingpage-col-1{
     width: 50%;
 }
 
+/* landing page heading title */
 .landingpage .landingpage-col-1 h2{
     font-size: var(--fs-xlarge);
-    margin-bottom: 1.2rem;
-    line-height: 1.2;
+    font-weight: var(--fw-bold);
+    margin-bottom: 1rem;
+    line-height: 1.5;
 }
 
+/* Landing page content paragraph */
 .landingpage .landingpage-col-1 p{
     margin-bottom: 2.3rem;
-    line-height: 1.5;
+    line-height: 1.8;
 
 }
 
-
-.landingpage .landingpage-col-2 img{
-    /* width: 90%; */
+/* Landing page button container */
+.landingpage .landingpage-col-1 .btn-container{
+    display: flex;
+    gap: 1rem;
 }
+
+
+/* Landing page buttons  */
+.landingpage .landingpage-col-1 .btn-buy,  .landingpage .landingpage-col-1 .btn-explore{
+    padding: 1rem 2.5rem; 
+}
+
+/* logos container */
+.logo-container{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-content:  center;
+    padding: 1.5rem;
+    margin-top: 1.5rem;
+    gap: 3rem;
+}
+
+.landingpage-Logo{
+    width: 30.33%;
+}
+
+

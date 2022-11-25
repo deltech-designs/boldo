@@ -13,7 +13,7 @@
     --white: #FFFFFF;
     --gray: #777777; 
     --transparent: rgba(0, 0, 0, 0.8); 
-    --transparentBlue: #0a2640f8; 
+    --transparentBlue: #0a2640d7; 
 
     /* Font Weight */
     --fw-regular: 400; 
@@ -45,4 +45,36 @@ body{
 h1, h2, h3, h4, h5, h6, p{
     font-weight: var(--fw-regular);
     margin-bottom: 0; 
+}
+
+
+.btn{
+    outline: none;
+    border: none;
+    border-radius: 30px;    
+    transition: all 0.5s;
+    cursor: pointer;
+    font-size: var(--fs-xsmall);
+    font-weight: var(--fw-medium);
+}
+
+
+.btn-outline{
+    background-color: transparent; 
+    color: var(--darkBlue);
+    border: 2px solid var(--darkBlue);
+}
+
+.btn-outline:hover{
+    background-color: var(--darkBlue);
+    color: var(--white);
+}
+
+.btn-background{
+    background-color: var(--darkBlue);
+    color: var(--white);
+}
+
+.btn-background:hover{
+    background-color: var(--transparentBlue);
 }
